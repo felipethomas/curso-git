@@ -1,5 +1,5 @@
 # curso-git
-Curso de Git e Github para iniciantes da Udemy oferecido por Willians Justen
+Curso de Git e Github para iniciantes da Udemy oferecido por Willian Justen
 
 ### Instalação:
 https://git-scm.com/downloads
@@ -51,5 +51,5 @@ git reset HEAD <nome-do-arquivo>
 git reset --soft  
 git reset --mixed  
 git reset --hard  
-
+https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas  
  
