@@ -25,7 +25,7 @@ git remote add origin git@github.com:usuario/repositorio.git
 git remote  
 git remote -v  
   
-### Comandos do dia-a-dia
+### Comandos usados com arquivos:
 git status  
 git add <nome-do-arquivo>  
 git commit -m "comentario"  
@@ -52,4 +52,11 @@ git reset --soft
 git reset --mixed  
 git reset --hard  
 https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas  
- 
+  
+Renomear:    
+git mv <arquivo-origem> <arquivo-destino>  
+  
+Apagar:  
+rm <nome-do-arquivo>  
+git rm  <nome-do-arquivo>  
+git rm --cached  <nome-do-arquivo>   
