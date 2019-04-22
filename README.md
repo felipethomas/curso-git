@@ -28,7 +28,7 @@ git remote -v
   
 ### Comandos usados com arquivos:
 git status  
-git add <nome-do-arquivo>  
+git add nome-do-arquivo  
 git commit -m "comentario"  
 git commit -am "comentario"  
 git push -u origin master  
@@ -45,7 +45,7 @@ git merge testing
 git rebase testing  
   
 Revert:  
-git revert <id-commit>  
+git revert id-commit  
   
 Log:  
 git log  
@@ -54,7 +54,7 @@ git log --author="nome-do-autor"
 git log --graph  
 git shortlog  
 git shortlog -sm  
-git slow <hash-do-commit>  
+git slow hash-do-commit  
   
 Diff:  
 git diff  
@@ -67,8 +67,8 @@ git stash list
 git stash clear  
   
 Desfazer:  
-git checkout <nome-do-arquivo>  
-git reset HEAD <nome-do-arquivo>  
+git checkout nome-do-arquivo  
+git reset HEAD nome-do-arquivo  
 git reset --soft  
 git reset --mixed  
 git reset --hard  
@@ -77,14 +77,14 @@ https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas
 Tag:  
 git tag  
 git tag -a 1.0.0 -m "comentario"  
-git tag -d <tag-a-ser-apagada-local>  
+git tag -d tag-a-ser-apagada-local  
 git push origin master --tags  
 git push origin :tag-a-ser-apagada-remote  
       
 Renomear:    
-git mv <arquivo-origem> <arquivo-destino>  
+git mv arquivo-origem arquivo-destino  
   
 Apagar:  
-rm <nome-do-arquivo>  
-git rm  <nome-do-arquivo>  
-git rm --cached  <nome-do-arquivo>   
+rm nome-do-arquivo  
+git rm nome-do-arquivo  
+git rm --cached nome-do-arquivo   
