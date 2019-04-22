@@ -9,7 +9,8 @@ Criar:
 git config --global user.name "Felipe Thomas"  
 git config --global user.email "felipecejug@gmail.com"  
 git config --global core.editor gedit  
-
+git config --global alias.s status  
+  
 Visualizar:  
 git config user.name  
 git config user.email  
@@ -31,6 +32,20 @@ git add <nome-do-arquivo>
 git commit -m "comentario"  
 git commit -am "comentario"  
 git push -u origin master  
+
+Brach:
+git branch  
+git checkout -b testing  
+git checkout master  
+git brach -D testing   
+git push origin :<branch-a-ser-apagada-remote>  
+  
+Merge:
+git merge testing  
+git rebase testing  
+  
+Revert:
+git revert <id-commit>  
   
 Log:  
 git log  
@@ -45,6 +60,12 @@ Diff:
 git diff  
 git diff --name-only  
   
+Stash:  
+git stash  
+git stash apply  
+git stash list  
+git stash clear  
+  
 Desfazer:  
 git checkout <nome-do-arquivo>  
 git reset HEAD <nome-do-arquivo>  
@@ -53,6 +74,13 @@ git reset --mixed
 git reset --hard  
 https://git-scm.com/book/pt-br/v1/Git-Essencial-Desfazendo-Coisas  
   
+Tag:  
+git tag  
+git tag -a 1.0.0 -m "comentario"  
+git tag -d <tag-a-ser-apagada-local>  
+git push origin master --tags  
+git push origin :<tag-a-ser-apagada-remote>  
+      
 Renomear:    
 git mv <arquivo-origem> <arquivo-destino>  
   
