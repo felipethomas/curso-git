@@ -33,18 +33,18 @@ git commit -m "comentario"
 git commit -am "comentario"  
 git push -u origin master  
 
-Brach:
+Brach:  
 git branch  
 git checkout -b testing  
 git checkout master  
 git brach -D testing   
-git push origin :<branch-a-ser-apagada-remote>  
+git push origin :branch-a-ser-apagada-remote    
   
-Merge:
+Merge:  
 git merge testing  
 git rebase testing  
   
-Revert:
+Revert:  
 git revert <id-commit>  
   
 Log:  
@@ -79,7 +79,7 @@ git tag
 git tag -a 1.0.0 -m "comentario"  
 git tag -d <tag-a-ser-apagada-local>  
 git push origin master --tags  
-git push origin :<tag-a-ser-apagada-remote>  
+git push origin :tag-a-ser-apagada-remote  
       
 Renomear:    
 git mv <arquivo-origem> <arquivo-destino>  
