@@ -1,5 +1,5 @@
 ### Instalar o zsh
-- sudo apt install zsh  
+- sudo apt-get install zsh  
 - zsh --version (esperado: zsh 5.1.1 ou mais recente)  
 
 ### Tornar o zsh o shell default
@@ -8,7 +8,7 @@
 - echo $SHELL (esperado: /bin/zsh ou similar)  
 
 ### Instalar o Oh My Zsh
-sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  
+- sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"  
 
 ### Customizar tema
 - cd /home/01308900490/.oh-my-zsh/custom/themes  
