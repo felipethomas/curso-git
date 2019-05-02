@@ -35,6 +35,8 @@ git push -u origin master
 
 Brach:  
 git branch  
+git branch -r  
+git branch -a  
 git checkout -b testing  
 git checkout master  
 git brach -D testing   
@@ -52,6 +54,10 @@ git log
 git log --decorate  
 git log --author="nome-do-autor"  
 git log --graph  
+git log --help  
+git log --pretty=oneline  
+git log --prety=format:"%h %an %ar - %s"  
+git log --follow arquivo.txt  
 git shortlog  
 git shortlog -sm  
 git slow hash-do-commit  
@@ -88,3 +94,9 @@ Apagar:
 rm nome-do-arquivo  
 git rm nome-do-arquivo  
 git rm --cached nome-do-arquivo   
+  
+Remote:  
+git fetch origin  
+git pull  
+git pull --rebase  
+
